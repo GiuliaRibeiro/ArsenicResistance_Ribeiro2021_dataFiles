@@ -1,0 +1,424 @@
+IQ-TREE multicore version 1.6.10 for Mac OS X 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MacBook-Air-de-Giulia.local (AVX2, FMA3, 4 GB RAM)
+Command: /Users/giulia/iqtree-1.6.10-MacOSX/bin/iqtree -s ArsM_G1_MAFFT_80trim.fasta -m LG+I+G4 -z ArsM_G1.treels -n 0 -zb 10000 -au
+Seed:    547194 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 19 16:02:04 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ArsM_G1_MAFFT_80trim.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 345 sequences with 341 columns, 337 distinct patterns
+308 parsimony-informative, 16 singleton sites, 17 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  XP_019859500.1    0.59%    passed      5.23%
+   2  XP_002183586.1    0.00%    passed     74.54%
+   3  Ptr_XP_0021835    0.00%    passed     74.54%
+   4  VEU45043.1        0.29%    passed     40.70%
+   5  OEU22110.1        0.29%    passed     30.30%
+   6  GAX22681.1        0.29%    passed     79.10%
+   7  GAX19208.1        0.29%    passed     78.79%
+   8  tpse_3964538_f    0.00%    passed     65.80%
+   9  EJK48426.1        0.00%    passed     82.22%
+  10  PKK65787.1        2.64%    failed      1.75%
+  11  RGB31642.1        2.64%    failed      0.48%
+  12  GES82175.1        2.64%    failed      1.95%
+  13  GBC05025.1        2.93%    failed      2.12%
+  14  RIA98937.1        2.93%    failed      2.90%
+  15  RIA89135.1        2.35%    failed      0.08%
+  16  zsir_1445217_S    0.00%    passed     47.29%
+  17  zade_3301527_A   60.12%    passed     39.06%
+  18  zamo_1201423_A    0.59%    passed     99.91%
+  19  zml_123437_M      0.59%    failed      2.20%
+  20  WP_086594230.1    0.59%    passed     66.37%
+  21  WP_045689652.1    0.29%    passed     16.27%
+  22  WP_185887602.1    0.59%    passed     26.48%
+  23  WP_068194151.1    0.59%    passed     71.03%
+  24  WP_092668247.1    0.59%    passed     97.28%
+  25  TVR36284.1        0.29%    passed     68.18%
+  26  RMF57114.1        0.00%    passed     13.29%
+  27  RMG64881.1        0.00%    passed     55.33%
+  28  NOY06012.1        5.28%    passed     58.51%
+  29  WP_148895269.1    0.88%    passed     71.10%
+  30  WP_103114522.1    0.88%    passed     60.12%
+  31  MBI1921981.1      0.00%    passed     83.99%
+  32  WP_145025823.1    0.00%    passed     61.24%
+  33  WP_135648284.1    0.00%    passed     56.57%
+  34  WP_100710597.1    0.29%    failed      0.24%
+  35  WP_109020604.1    0.29%    passed      8.73%
+  36  WP_135765759.1    0.29%    failed      3.21%
+  37  BBM87188.1        3.52%    passed     38.64%
+  38  WP_029891046.1    0.59%    passed     18.20%
+  39  TAJ52185.1        0.59%    passed     49.81%
+  40  WP_164608191.1    0.59%    failed      2.22%
+  41  WP_067031890.1    0.59%    passed      8.72%
+  42  WP_112492371.1    0.59%    failed      2.18%
+  43  WP_027752717.1    0.59%    passed     22.13%
+  44  WP_091075743.1    0.59%    passed     12.84%
+  45  WP_141901606.1    0.29%    passed     81.83%
+  46  WP_017840314.1    0.29%    passed     97.16%
+  47  WP_027157002.1    0.29%    passed     95.12%
+  48  WP_020157195.1    0.29%    passed     99.37%
+  49  WP_031435552.1    0.29%    passed     94.70%
+  50  BCG63699.1        0.29%    passed     99.96%
+  51  NOQ63391.1        0.29%    passed     99.44%
+  52  OD46750.1         0.29%    failed      1.41%
+  53  WP_091238800.1    0.29%    failed      1.79%
+  54  WP_045226361.1    0.29%    passed     95.89%
+  55  MBL9005652.1      0.29%    passed     80.86%
+  56  NQV32354.1        3.81%    passed     48.92%
+  57  MBC7539564.1      0.59%    failed      2.68%
+  58  HBR67799.1        1.17%    passed     41.67%
+  59  TAN37289.1        0.29%    passed     72.82%
+  60  RMG39165.1        0.00%    passed     24.12%
+  61  PWH85528.1        0.00%    passed     15.84%
+  62  WP_130092509.1    0.00%    passed     12.50%
+  63  WP_107039367.1    0.00%    passed      7.06%
+  64  WP_101335480.1    0.00%    passed     22.87%
+  65  WP_066756818.1    0.00%    passed     38.41%
+  66  NOQ73847.1        0.00%    passed     27.28%
+  67  WP_090248925.1    0.00%    passed     40.43%
+  68  MRX46987.1        0.00%    passed     41.34%
+  69  WP_202594409.1    0.00%    passed     26.22%
+  70  WP_021703038.1    0.00%    passed     52.97%
+  71  WP_126896102.1    0.00%    passed     60.39%
+  72  WP_147170996.1    0.00%    passed     91.13%
+  73  WP_134638126.1    0.00%    passed     78.62%
+  74  WP_125024918.1    0.00%    passed     29.03%
+  75  WP_023446584.1    0.00%    passed     43.91%
+  76  WP_147811405.1    0.00%    passed     44.18%
+  77  KJ78054.1         0.00%    passed     43.13%
+  78  WP_039804127.1    0.00%    passed     91.18%
+  79  WP_152386103.1    0.00%    passed     95.39%
+  80  WP_121335776.1    0.00%    passed     39.52%
+  81  WP_022962943.1    0.00%    passed     86.20%
+  82  WP_182248256.1    0.00%    passed     93.03%
+  83  PKM28671.1        0.00%    passed     92.46%
+  84  WP_074864085.1    0.29%    passed     99.28%
+  85  WP_071871632.1    0.29%    passed     98.10%
+  86  WP_137807344.1    0.00%    passed     96.68%
+  87  WP_057978266.1    0.00%    passed     92.62%
+  88  WP_103404593.1    0.00%    passed     89.58%
+  89  MBH2035388.1      0.00%    passed     84.57%
+  90  MBA4152025.1      0.29%    passed     98.57%
+  91  WP_068857696.1    0.00%    passed     98.77%
+  92  MBE2263460.1      0.00%    passed     23.28%
+  93  OGS92021.1        0.00%    passed     60.72%
+  94  PJA25783.1        0.00%    passed     58.82%
+  95  WP_013293845.1    0.00%    passed     88.04%
+  96  NCN88792.1        0.00%    passed     94.69%
+  97  TBR12567.1        0.00%    passed     32.48%
+  98  PIQ13048.1        0.00%    passed     29.20%
+  99  MBI4290129.1      0.00%    passed     23.58%
+ 100  TAJ22193.1        0.00%    passed     45.63%
+ 101  MBI3285628.1      0.00%    passed     26.41%
+ 102  OYV80096.1        0.00%    passed     43.25%
+ 103  WP_186861691.1    0.00%    passed     73.23%
+ 104  OGB26595.1        0.00%    passed     21.49%
+ 105  TAN14708.1        0.00%    passed     25.48%
+ 106  WP_142817609.1    0.00%    passed     28.55%
+ 107  WP_019562136.1    0.00%    passed     27.11%
+ 108  MBK9426491.1      0.00%    failed      2.63%
+ 109  MBK6961847.1      0.00%    failed      2.23%
+ 110  MBK8133674.1      0.00%    failed      4.19%
+ 111  WP_036499447.1    0.00%    passed     70.28%
+ 112  WP_002813234.1    0.00%    passed     91.56%
+ 113  PIQ39625.1        0.00%    passed     97.40%
+ 114  WP_067156627.1    0.00%    passed     98.69%
+ 115  TXG99259.1        0.00%    passed     55.75%
+ 116  RFC40330.1        0.00%    passed     98.21%
+ 117  MBK8570737.1      0.00%    passed     98.29%
+ 118  MBL0037354.1      0.00%    passed     99.09%
+ 119  RFC33071.1        0.00%    passed     99.44%
+ 120  RFC37642.1        0.00%    passed     98.50%
+ 121  RFC35524.1        0.00%    passed     98.18%
+ 122  MBI5436984.1      0.00%    passed     99.36%
+ 123  MBI5437985.1      0.00%    passed     93.33%
+ 124  OGS97682.1        0.00%    passed     98.79%
+ 125  OGT29545.1        0.00%    passed     99.53%
+ 126  MBI5626673.1      0.00%    passed     99.11%
+ 127  OGT12410.1        0.00%    passed     97.32%
+ 128  TXT25232.1        0.00%    passed     98.57%
+ 129  OGS92884.1        0.00%    passed     74.95%
+ 130  OGT04749.1        0.00%    passed     75.48%
+ 131  MBI1887613.1      0.00%    passed     78.92%
+ 132  MBI5660046.1      0.00%    passed     27.58%
+ 133  WP_085276295.1    0.00%    passed     51.60%
+ 134  MBI3146842.1      0.00%    passed     46.36%
+ 135  WP_124382941.1    0.00%    passed     21.84%
+ 136  MBK7301048.1      0.00%    passed     86.88%
+ 137  WP_200596914.1    0.00%    passed     16.01%
+ 138  WP_085316124.1    0.00%    failed      0.03%
+ 139  MBI5786126.1      0.00%    passed     23.34%
+ 140  MBE7424352.1      0.00%    passed      6.71%
+ 141  MBK7813756.1      0.00%    passed     44.11%
+ 142  WP_193164491.1    0.00%    passed     38.80%
+ 143  WP_073270720.1    0.00%    passed     53.88%
+ 144  WP_091384847.1    0.00%    passed     74.41%
+ 145  OGT72107.1        0.00%    passed     82.86%
+ 146  TFH75181.1        0.00%    passed     51.98%
+ 147  OS24501.1         0.00%    passed     95.06%
+ 148  WP_184461206.1    0.00%    passed     99.40%
+ 149  WP_008252217.1    0.00%    passed     99.03%
+ 150  WP_011396826.1    0.00%    passed     91.94%
+ 151  PKO39678.1        0.00%    passed     66.96%
+ 152  WP_189469079.1    0.00%    passed     52.59%
+ 153  WP_116208424.1    0.00%    passed     93.26%
+ 154  KAB2308271.1      0.29%    passed     85.56%
+ 155  OHE60163.1        0.29%    passed     27.80%
+ 156  OYZ27810.1        0.29%    passed     33.19%
+ 157  MBK9326038.1      0.29%    passed     56.45%
+ 158  WP_121428621.1    0.00%    passed     21.30%
+ 159  WP_169202716.1    0.00%    passed     23.93%
+ 160  WP_169117128.1    0.00%    passed     12.30%
+ 161  MBI1283321.1      0.00%    passed     70.77%
+ 162  OJY56682.1        0.00%    passed     50.95%
+ 163  TXH74002.1        0.00%    passed     59.55%
+ 164  WP_124927663.1    0.00%    passed     39.64%
+ 165  WP_129494818.1    0.00%    passed     54.30%
+ 166  WP_076719542.1    0.00%    passed     96.60%
+ 167  WP_062270045.1    0.00%    passed     75.93%
+ 168  WP_034832264.1    0.00%    passed     90.40%
+ 169  WP_101892502.1    0.00%    passed     95.33%
+ 170  RLT98677.1        0.00%    passed     98.63%
+ 171  MBA54771.1        0.00%    passed     95.80%
+ 172  MAQ26721.1        0.00%    passed     99.41%
+ 173  WP_027856026.1    0.00%    passed     37.02%
+ 174  WP_193952339.1    0.00%    passed     98.94%
+ 175  MBL4583281.1      0.00%    passed     90.83%
+ 176  WP_177421135.1    0.00%    passed     53.13%
+ 177  MBL3598865.1      0.00%    passed     76.84%
+ 178  RDH83579.1        0.00%    passed     79.12%
+ 179  RLJ17449.1        0.00%    passed     72.89%
+ 180  RLJ17077.1        0.00%    passed     71.17%
+ 181  NOQ79852.1        0.00%    passed     75.76%
+ 182  WP_198266451.1    0.00%    passed     93.31%
+ 183  MBE9526771.1      0.00%    passed     73.21%
+ 184  OQX37466.1        0.00%    passed     92.90%
+ 185  HEC17265.1        0.00%    passed     90.49%
+ 186  WP_068510803.1    0.00%    passed     45.48%
+ 187  OAD20750.1        0.00%    passed     56.02%
+ 188  HAI70664.1        0.00%    passed     75.47%
+ 189  MBC8519936.1      0.00%    passed     83.64%
+ 190  TDI59035.1        0.00%    passed     66.81%
+ 191  PID44003.1        0.00%    passed     99.90%
+ 192  WP_133736771.1    0.29%    passed     98.39%
+ 193  MBA3980779.1      0.29%    passed     76.71%
+ 194  WP_183910351.1    0.00%    passed     60.08%
+ 195  WP_170399433.1    0.29%    passed     99.20%
+ 196  WP_058271828.1    0.29%    passed     89.52%
+ 197  WP_058319862.1    0.29%    passed     77.26%
+ 198  WP_164128356.1    0.00%    passed     31.72%
+ 199  WP_137702027.1    0.00%    passed     16.72%
+ 200  MBK5199216.1      0.00%    passed     96.30%
+ 201  MBA4130645.1      0.00%    passed     88.93%
+ 202  WP_167091896.1    0.00%    passed     58.90%
+ 203  WP_152217134.1    0.00%    passed     19.12%
+ 204  RME93285.1        0.29%    passed     72.32%
+ 205  CBJ30211.1con     0.00%    passed     47.80%
+ 206  Ppr_KAA849916     0.00%    passed     91.09%
+ 207  XP_005767333.1    0.00%    passed     59.72%
+ 208  zvro_1706313_V    0.00%    passed     77.70%
+ 209  zvro_1708443_V    0.00%    passed     77.70%
+ 210  zvro_1696059_V    4.99%    passed     38.16%
+ 211  zcpr_2091098_C    0.29%    passed     61.10%
+ 212  zvdi_1777995_V    0.29%    passed     99.14%
+ 213  zvdi_1785662_V    2.35%    passed     58.45%
+ 214  WP_133407155.1    0.00%    passed     12.40%
+ 215  WP_129944911.1    0.00%    passed     37.35%
+ 216  WP_205000208.1    0.00%    passed     48.88%
+ 217  OIQ46981.1        0.00%    passed     63.68%
+ 218  WP_115999319.1    0.00%    passed     17.87%
+ 219  WP_116014712.1    0.00%    passed      6.34%
+ 220  zrip_1082878_R    0.00%    passed     90.30%
+ 221  ztri_1557815_T    0.59%    passed     17.31%
+ 222  zmei_61123_Mas    0.00%    passed     85.15%
+ 223  zsra_1268224_S    2.64%    passed      6.67%
+ 224  zlin_1291256_L    0.29%    failed      0.62%
+ 225  zpec_2728442_P    0.59%    passed     22.66%
+ 226  XP_005856121.1    0.88%    passed     87.82%
+ 227  EWM25846.1        7.33%    passed     61.91%
+ 228  NNF58884.1        0.29%    passed     14.68%
+ 229  AIZ57293pepc      0.29%    passed     33.65%
+ 230  WP_115603556.1    0.00%    passed     39.41%
+ 231  TXD39805.1        0.00%    passed     38.54%
+ 232  WP_111728295.1    0.00%    passed     25.86%
+ 233  TAK28629.1        0.00%    failed      3.37%
+ 234  TAK32824.1        0.00%    failed      4.03%
+ 235  MBK8172866.1      0.00%    passed     16.31%
+ 236  NRA31787.1        0.00%    passed     83.78%
+ 237  NEQ96059.1        0.00%    passed     78.02%
+ 238  zsre_3249226_S    0.59%    passed     98.44%
+ 239  zbsh_1129785_M    2.93%    passed     99.47%
+ 240  zcn_1917534_C     0.59%    passed     98.72%
+ 241  znet_380233_Ne   52.49%    passed      6.71%
+ 242  zds_2241736_D     1.47%    passed     50.62%
+ 243  zdid_2373894_D   29.62%    failed      0.88%
+ 244  zdbr_2626034_D   13.49%    passed     14.07%
+ 245  zpyx_2652770_P    1.17%    passed      6.66%
+ 246  zcop_998534_Cr    1.17%    passed     21.80%
+ 247  zcyc_1585406_C   58.36%    passed     10.43%
+ 248  zhsp_2348219_H   18.48%    failed      3.23%
+ 249  zpca_1800456_P   29.62%    passed     11.83%
+ 250  CDW79757.1        1.47%    failed      1.10%
+ 251  TNV78256.1        3.23%    passed     28.64%
+ 252  zode_412766_Ov    0.59%    passed     12.92%
+ 253  zcap_2910681_C    1.17%    passed     22.11%
+ 254  NP_543166.1       2.64%    passed     45.95%
+ 255  mms_1966378_E     2.35%    passed     91.90%
+ 256  EAW49666.1        2.35%    passed     10.30%
+ 257  ptro_576886_EN    2.35%    passed     11.62%
+ 258  mml_1761943_X     2.35%    passed      6.60%
+ 259  ecab_586719_XP    2.35%    failed      1.26%
+ 260  clp_3432324_E    16.13%    passed      8.54%
+ 261  oana_763311_EN   16.13%    passed     33.59%
+ 262  ggal_3403110_E    6.16%    passed     87.36%
+ 263  NP_001034928.1    1.76%    passed     24.22%
+ 264  tnig_1361858_E    2.64%    passed     93.96%
+ 265  tnig_1364740_E    2.64%    passed     51.01%
+ 266  XP_020451818.1    2.64%    passed     88.51%
+ 267  LotgiP221596p     3.52%    failed      3.68%
+ 268  nvec_3763570_e    1.17%    passed      9.20%
+ 269  nvec_3771649_g   22.87%    passed     60.62%
+ 270  drer_3523018_E    1.76%    passed     15.07%
+ 271  zeex_2918280_E    0.00%    passed     87.66%
+ 272  zmba_621246_Ma    2.93%    passed     73.14%
+ 273  zrsa_3676925_R    0.88%    passed     31.86%
+ 274  zrsa_3687808_R    0.88%    passed     19.78%
+ 275  zvfi_1217029_c    0.00%    passed     86.80%
+ 276  XP_784275.2ar     2.05%    failed      4.00%
+ 277  XP_002673101.1    0.29%    passed     43.38%
+ 278  KAG2375320.1      0.59%    failed      0.21%
+ 279  KAF0974408.1      0.29%    passed     11.47%
+ 280  XP_016608596.1    2.05%    passed     95.12%
+ 281  zsp_1548912_S     2.05%    passed     95.12%
+ 282  TPX71145.1        2.05%    passed     89.07%
+ 283  zazb_1348175_A    4.99%    passed     14.82%
+ 284  zazc_876705_Am    1.76%    failed      2.14%
+ 285  zaza_36678_Amp    1.76%    passed      5.26%
+ 286  zaza_36679_Amp   17.60%    passed     23.00%
+ 287  zazd_2568635_A   58.06%    passed     21.84%
+ 288  zaze_1879002_A    2.35%    passed      6.03%
+ 289  zazd_2568636_A   34.02%    failed      3.27%
+ 290  XP_004346011.1    0.88%    passed     87.67%
+ 291  zsst_2777126_S    0.29%    passed     87.33%
+ 292  XP_007512671.1    0.88%    passed     23.22%
+ 293  XP_022840421.1    0.88%    passed     76.23%
+ 294  XP_003064194.1    0.29%    passed     89.78%
+ 295  micr_1472768_A    0.29%    passed     93.33%
+ 296  XP_005845903.1    0.59%    passed     61.79%
+ 297  PSC70020.1        0.59%    passed     83.20%
+ 298  PRW33732.1        0.29%    passed     49.40%
+ 299  XP_005847544.1    0.59%    failed      3.31%
+ 300  vcar_202937_XP    1.76%    passed     62.10%
+ 301  PNH10988.1        0.59%    passed     85.79%
+ 302  KXZ45692.1        0.59%    passed     70.79%
+ 303  PNW76465.1        0.59%    passed     99.22%
+ 304  AFS88933.2        0.59%    passed     99.22%
+ 305  KAG2488760.1      0.88%    passed     90.51%
+ 306  GFH06931.1        1.17%    passed     42.90%
+ 307  KAF5843688.1      0.59%    passed     99.41%
+ 308  GAQ93433.1hyp     1.47%    passed     42.13%
+ 309  XP_005847712.1    7.33%    passed     27.80%
+ 310  RKP22530.1       27.86%    passed     23.27%
+ 311  RKP08595.1        0.88%    passed     82.49%
+ 312  ORX96339.1        2.35%    passed     28.74%
+ 313  PIA14687.1        0.59%    failed      0.96%
+ 314  XP_005842381.1    5.28%    passed     98.87%
+ 315  KAA6429579.1      0.29%    passed     98.11%
+ 316  TMW67531.1        0.29%    passed     84.50%
+ 317  RLN32626.1        0.29%    passed     56.88%
+ 318  RLN49611.1        0.29%    passed     45.65%
+ 319  zsre_3252884_S    1.47%    passed     55.48%
+ 320  KAF6263798.1      0.00%    failed      0.02%
+ 321  GBF94952.1        0.59%    passed     31.67%
+ 322  GBF94951.1        0.29%    passed     53.64%
+ 323  XP_004997789.1    1.17%    passed     63.11%
+ 324  zmbi_2759038_M    1.17%    passed     43.51%
+ 325  GAX73403.1hyp     0.29%    passed     70.63%
+ 326  ETO35460.1hyp    39.88%    passed     63.62%
+ 327  ORX70519.1        4.69%    passed     16.88%
+ 328  Pbr_CEO97499p     3.81%    passed     98.47%
+ 329  cint_4099388_E   17.60%    passed      9.66%
+ 330  zmca_3847157_M    0.00%    passed     11.60%
+ 331  zapr_933666_cd   51.91%    passed     11.81%
+ 332  zapr_933662_cd   49.56%    passed     23.30%
+ 333  ACN39191.1        1.17%    passed     94.48%
+ 334  cmer_1179714_C    1.17%    passed     94.70%
+ 335  cmer_1177138_C    2.93%    passed     97.86%
+ 336  Cya_KAF6002062   50.73%    passed     40.94%
+ 337  Pmb_OSX76803.     0.29%    failed      0.00%
+ 338  OLY84113.1        0.59%    failed      4.46%
+ 339  OMJ07121.1        0.88%    failed      0.47%
+ 340  PVU93268.1        0.59%    passed     31.17%
+ 341  XP_005706047.1    3.52%    passed     20.06%
+ 342  XP_005706547.1    3.23%    passed     34.12%
+ 343  zanc_2446140_A    0.88%    passed     38.97%
+ 344  tvag_3924825_T    3.81%    failed      0.08%
+ 345  OHS94620.1        2.05%    failed      0.00%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL             2.54%  38 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Ptr_XP_0021835 is identical to XP_002183586.1 but kept for subsequent analysis
+NOTE: zvro_1708443_V is identical to zvro_1706313_V but kept for subsequent analysis
+NOTE: zsp_1548912_S is identical to XP_016608596.1 but kept for subsequent analysis
+NOTE: AFS88933.2 is identical to PNW76465.1 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.553 seconds
+
+NOTE: 76 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.049, 0.902 / LogL: -90292.326
+Init pinv, alpha: 0.006, 1.000 / Estimate: 0.049, 0.903 / LogL: -90292.326
+Init pinv, alpha: 0.011, 1.000 / Estimate: 0.049, 0.903 / LogL: -90292.326
+Init pinv, alpha: 0.017, 1.000 / Estimate: 0.049, 0.904 / LogL: -90292.327
+Init pinv, alpha: 0.022, 1.000 / Estimate: 0.049, 0.904 / LogL: -90292.327
+Init pinv, alpha: 0.028, 1.000 / Estimate: 0.049, 0.904 / LogL: -90292.327
+Init pinv, alpha: 0.033, 1.000 / Estimate: 0.049, 0.904 / LogL: -90292.327
+Init pinv, alpha: 0.039, 1.000 / Estimate: 0.049, 0.903 / LogL: -90292.327
+Init pinv, alpha: 0.044, 1.000 / Estimate: 0.049, 0.903 / LogL: -90292.327
+Init pinv, alpha: 0.050, 1.000 / Estimate: 0.049, 0.903 / LogL: -90292.327
+Optimal pinv,alpha: 0.049, 0.903 / LogL: -90292.326
+
+Parameters optimization took 353.001 sec
+BEST SCORE FOUND : -90292.326
+Total tree length: 73.060
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.006 sec (0h:0m:0s)
+Total CPU time used: 138.689 sec (0h:2m:18s)
+Total wall-clock time used: 355.072 sec (0h:5m:55s)
+
+Reading trees in ArsM_G1.treels ...
+3 trees detected
+Note: 13.240 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -90074.547
+Tree 2 / LogL: -90168.252
+Tree 3 / LogL: -89844.096
+Performing RELL-BP test...
+Performing KH and SH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+2 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 1.659 seconds
+TreeID	AU	RSS	d	c
+1	0.001	4.038	3.169	-0.081
+2	0.000	0.000	9.927	-2.411
+3	0.999	6.684	-3.108	0.067
+Time for evaluating all trees: 12.324 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                ArsM_G1_MAFFT_80trim.fasta.iqtree
+  Maximum-likelihood tree:       ArsM_G1_MAFFT_80trim.fasta.treefile
+  Evaluated user trees:          ArsM_G1_MAFFT_80trim.fasta.trees
+  Screen log file:               ArsM_G1_MAFFT_80trim.fasta.log
+
+Date and Time: Mon Apr 19 16:08:12 2021
