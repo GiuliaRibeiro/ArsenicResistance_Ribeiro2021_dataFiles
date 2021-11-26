@@ -1,0 +1,400 @@
+IQ-TREE multicore version 1.6.10 for Mac OS X 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MacBook-Air-de-Giulia.local (AVX2, FMA3, 4 GB RAM)
+Command: /Users/giulia/iqtree-1.6.10-MacOSX/bin/iqtree -s ArsM_G2_MAFFT_80trim.fasta -m LG+I+G4 -g edited_tree_eukmono.constr1 -pre ArsM_G2eukmono.constr1
+Seed:    301463 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 17 10:51:47 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ArsM_G2_MAFFT_80trim.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 241 sequences with 243 columns, 243 distinct patterns
+230 parsimony-informative, 7 singleton sites, 6 constant sites
+                Gap/Ambiguity  Composition  p-value
+   1  XP_002165192.1    0.00%    passed     65.54%
+   2  XP_012554525.1    0.00%    passed     75.80%
+   3  WP_168464815.1    0.00%    passed     97.13%
+   4  WP_012158952.1    0.41%    passed     61.74%
+   5  KO53618.1         0.00%    passed     54.40%
+   6  NLD49068.1        0.00%    passed     98.83%
+   7  WP_014903130.1    0.41%    passed     99.92%
+   8  WP_092335232.1    0.41%    passed    100.00%
+   9  WP_082204391.1    0.00%    passed     83.70%
+  10  WP_015593572.1    0.00%    passed     69.53%
+  11  WP_006521559.1    0.00%    passed     96.88%
+  12  WP_147534323.1    0.00%    passed     87.12%
+  13  WP_161821771.1    0.41%    passed     97.94%
+  14  NIP25504.1        0.00%    passed     81.64%
+  15  KPK71244.1        0.00%    passed     65.76%
+  16  PCJ89242.1        0.00%    passed     93.42%
+  17  MBL1276838.1      0.00%    passed     97.46%
+  18  WP_176957708.1    0.00%    passed     37.25%
+  19  WP_009850992.1    0.00%    passed     87.78%
+  20  WP_051938203.1    0.00%    passed     99.97%
+  21  PCI00270.1        0.82%    passed     99.54%
+  22  WP_018954761.1    0.00%    passed     88.72%
+  23  WP_077279593.1    0.00%    passed     89.96%
+  24  WP_132972141.1    0.00%    passed     25.33%
+  25  WP_082674128.1    0.00%    passed      6.59%
+  26  WP_052132093.1    0.00%    passed     99.09%
+  27  WP_078455143.1    0.00%    passed     99.09%
+  28  KHF26218.1        0.00%    passed     99.09%
+  29  WP_114279466.1    0.00%    passed     99.08%
+  30  NNG14638.1        0.00%    passed     86.22%
+  31  WP_126452980.1    0.00%    passed     97.58%
+  32  MBL1261593.1      0.00%    passed     99.73%
+  33  PCI15176.1        0.41%    passed     99.76%
+  34  WP_078487248.1    0.00%    passed    100.00%
+  35  HHM05891.1        0.00%    passed     95.48%
+  36  WP_131904463.1    0.00%    passed     96.08%
+  37  NLX97160.1        0.41%    passed     76.38%
+  38  WP_092999095.1    0.00%    passed     68.78%
+  39  MBD3620192.1      0.00%    passed     87.32%
+  40  WP_018078770.1    0.00%    passed      8.82%
+  41  KYF56957.1        1.23%    passed      8.57%
+  42  WP_020732918.1    1.23%    passed     25.16%
+  43  KYF63238.1        1.23%    passed     24.42%
+  44  MBI5496139.1      0.00%    passed      8.86%
+  45  MBK9266755.1      0.00%    passed     79.24%
+  46  WP_205633698.1    1.23%    passed     53.63%
+  47  MBE9528060.1      0.00%    passed     92.38%
+  48  HGS25755.1        0.00%    passed     18.85%
+  49  WP_087441483.1    0.00%    failed      0.24%
+  50  WP_059042789.1    1.23%    passed     90.26%
+  51  WP_083040617.1    1.23%    passed     81.00%
+  52  WP_139693294.1    0.00%    passed     56.15%
+  53  WP_129930282.1    0.00%    passed     69.61%
+  54  WP_158329259.1    1.23%    passed     14.70%
+  55  WP_113758354.1    1.23%    passed     12.15%
+  56  MBA3017927.1      0.41%    passed     81.77%
+  57  WP_173978950.1    0.00%    passed     77.26%
+  58  OGC75891.1        0.00%    passed     80.13%
+  59  EQB64191.1        0.00%    passed     93.12%
+  60  MBI4082654.1      0.82%    failed      2.49%
+  61  NWG14028.1        0.00%    passed     87.12%
+  62  WP_012289730.1    0.00%    passed     53.95%
+  63  WP_152944034.1    0.00%    passed      5.32%
+  64  WP_121921044.1    0.00%    passed     19.95%
+  65  WP_049972859.1    0.00%    passed     53.09%
+  66  WP_058828740.1    0.00%    passed     65.10%
+  67  WP_138655655.1    0.00%    passed     38.30%
+  68  WP_011986176.1    0.82%    failed      2.73%
+  69  WP_155119582.1    0.82%    failed      2.30%
+  70  WP_165776170.1    0.82%    failed      0.97%
+  71  WP_170063720.1    0.41%    failed      2.07%
+  72  WP_154674956.1    0.41%    passed     10.71%
+  73  WP_012064370.1    0.41%    passed     12.49%
+  74  WP_048092425.1    0.41%    passed     62.46%
+  75  MBI5043374.1     13.58%    passed     89.43%
+  76  TET73805.1        0.00%    passed     96.47%
+  77  TES82780.1        0.00%    passed     93.89%
+  78  TET16867.1        0.00%    passed     79.57%
+  79  MBI5188886.1      0.00%    passed     38.59%
+  80  NYT00593.1        0.00%    passed     42.90%
+  81  ODS35089.1        0.41%    passed     32.95%
+  82  MBI5115972.1      0.00%    passed     83.63%
+  83  NWG02654.1        0.00%    passed     86.98%
+  84  MBI1992912.1      0.00%    passed     85.54%
+  85  NVM36150.1        0.00%    passed     86.44%
+  86  TKJ23043.1        0.00%    passed     73.58%
+  87  TFH51510.1        0.00%    passed     42.77%
+  88  WP_013720435.1    0.00%    passed     94.97%
+  89  NPV61036.1        0.00%    passed     90.75%
+  90  WP_048183374.1    0.82%    passed     16.93%
+  91  WP_128693141.1    0.00%    passed     15.32%
+  92  TKJ23044.1ars     0.41%    passed     10.00%
+  93  HGE40261.1        4.12%    passed     20.22%
+  94  NWF86504.1        3.29%    failed      0.28%
+  95  QLJ52795.1        2.47%    failed      3.17%
+  96  NYZ76305.1        2.88%    failed      1.50%
+  97  KPL19268.1        2.47%    passed     50.29%
+  98  TET78529.1        2.88%    passed     31.60%
+  99  MBC8521420.1      9.47%    passed     61.03%
+ 100  PKL73567.1        2.88%    passed     13.37%
+ 101  WP_100909589.1    2.88%    passed     12.66%
+ 102  deth_1141006_Y    2.88%    passed     91.68%
+ 103  tpse_3964209_t   13.17%    passed     99.92%
+ 104  NHI91962.1        1.23%    failed      2.26%
+ 105  XP_003064178.1    1.23%    failed      0.72%
+ 106  micr_1472941_A   12.35%    passed     21.54%
+ 107  XP_001421846.1   23.46%    failed      0.01%
+ 108  HHT44541.1       22.63%    passed     94.83%
+ 109  WP_014406891.1    1.23%    passed     30.97%
+ 110  WP_012899441.1    0.82%    passed     78.58%
+ 111  GAD92999.1        0.00%    passed     94.05%
+ 112  afm_23851_Af     11.52%    passed     94.32%
+ 113  afm_29546_Af      0.41%    passed     96.67%
+ 114  afm_26826_Af      0.41%    passed     92.20%
+ 115  anid_3504083_A    0.41%    passed     75.84%
+ 116  XP_007826674.1    0.00%    passed     95.01%
+ 117  QLI70920.1        0.00%    passed     97.74%
+ 118  KAF5127095.1      1.65%    passed     93.85%
+ 119  OBS20292.1        0.00%    passed     80.84%
+ 120  RYO97316.1        0.00%    passed     75.87%
+ 121  EWZ28515.1        6.58%    passed     72.02%
+ 122  TDZ53839.1        0.00%    passed     92.95%
+ 123  gzea_3306747_F    0.00%    passed     82.58%
+ 124  cimm_746984_CI    0.41%    passed     82.33%
+ 125  afm_32651_Af      0.00%    passed     96.78%
+ 126  dhan_3082808_X    0.00%    passed     15.32%
+ 127  zcci_2544296_C    0.41%    passed     99.92%
+ 128  KAG2019895.1      0.41%    passed     99.92%
+ 129  TEB25967.1        0.41%    passed     93.31%
+ 130  RXW20523.1        0.41%    passed     83.38%
+ 131  KAF6763818.1      4.94%    passed     79.26%
+ 132  lbic_2130143_g   11.52%    passed     89.55%
+ 133  KIJ91556.1        0.82%    passed     86.10%
+ 134  KAF8157807.1      0.00%    passed     22.36%
+ 135  TFK33855.1        0.00%    passed     31.01%
+ 136  WP_013565436.1    0.00%    passed     65.07%
+ 137  WP_002650502.1    0.00%    passed     54.61%
+ 138  WP_105337435.1    0.00%    passed     88.12%
+ 139  WP_171189606.1    0.00%    passed     72.02%
+ 140  WP_145369354.1    0.00%    passed     99.56%
+ 141  WP_013629311.1    0.00%    passed     99.43%
+ 142  MBK8810549.1      0.00%    passed     91.74%
+ 143  MBA3256323.1      0.41%    passed     85.82%
+ 144  HCX29462.1        0.41%    passed     76.41%
+ 145  HAF14778.1        0.41%    passed     76.41%
+ 146  MBK8314111.1      0.00%    passed     96.68%
+ 147  WP_076350471.1    0.00%    passed     66.12%
+ 148  WP_145277802.1    0.00%    passed     16.10%
+ 149  WP_126727018.1    0.00%    passed     55.71%
+ 150  WP_152052530.1    0.00%    passed     88.16%
+ 151  WP_074304809.1    0.00%    passed     93.03%
+ 152  WP_146447922.1    0.82%    passed     95.76%
+ 153  QQS45580.1        0.00%    passed     99.49%
+ 154  WP_029600761.1    0.00%    passed     95.15%
+ 155  WP_165233364.1    0.00%    passed     85.01%
+ 156  WP_148598371.1    0.00%    passed     76.69%
+ 157  MBK9215749.1      0.00%    passed     96.69%
+ 158  HGT41099.1        0.00%    passed     64.88%
+ 159  WP_165252253.1    0.00%    passed     31.67%
+ 160  MBI4404202.1      0.00%    passed     81.63%
+ 161  WP_183977678.1    0.00%    passed     76.49%
+ 162  WP_186741044.1    0.00%    passed     98.76%
+ 163  WP_183789369.1    0.00%    passed     71.03%
+ 164  WP_162539052.1    0.00%    passed     83.87%
+ 165  WP_162402672.1    0.00%    passed     85.46%
+ 166  WP_158908989.1    0.00%    passed     94.43%
+ 167  WP_074656228.1    0.00%    passed     87.20%
+ 168  NUQ28341.1        0.00%    passed     97.68%
+ 169  WP_184220988.1    0.00%    passed     78.87%
+ 170  WP_131994437.1    0.00%    passed     35.04%
+ 171  WP_186694369.1    0.00%    passed     42.87%
+ 172  WP_162669649.1    0.41%    passed     60.81%
+ 173  WP_184678013.1    0.41%    passed     90.16%
+ 174  HIB64306.1        0.82%    passed     96.39%
+ 175  WP_164101977.1    0.00%    passed     97.68%
+ 176  MBA3713927.1      0.00%    passed     88.57%
+ 177  MSR54569.1        0.41%    passed     63.08%
+ 178  MBC7782626.1      0.00%    passed     40.31%
+ 179  HHK74172.1        0.00%    passed     91.39%
+ 180  HFQ15255.1        0.00%    passed     80.61%
+ 181  WP_088711803.1    0.00%    passed      8.17%
+ 182  WP_075055114.1    4.12%    passed     96.49%
+ 183  WP_148699201.1    4.12%    passed     97.60%
+ 184  XP_018276890.1    0.00%    failed      3.64%
+ 185  XP_028474224.1    0.00%    passed     40.69%
+ 186  TXT13265.1        0.41%    passed     67.30%
+ 187  OZJ05472.1        0.00%    passed     99.61%
+ 188  KIM29307.1        0.00%    passed     81.42%
+ 189  KIM20535.1        0.00%    passed     84.52%
+ 190  WP_011159102.1    0.00%    passed     82.23%
+ 191  WP_011461623.1    0.41%    passed     98.25%
+ 192  BAF58621.1pre     0.41%    passed     10.81%
+ 193  BAO65696.1        4.53%    failed      1.20%
+ 194  WP_012120819.1    0.82%    passed      6.57%
+ 195  HEJ77228.1       24.28%    failed      0.17%
+ 196  MBR09768.1       10.29%    passed     17.48%
+ 197  MBI2968279.1      1.65%    passed     10.72%
+ 198  WP_162428997.1    1.65%    passed     42.47%
+ 199  WP_161888171.1    1.65%    passed     67.46%
+ 200  WP_089320228.1    1.65%    passed     52.79%
+ 201  WP_106543656.1    2.06%    passed     26.83%
+ 202  WP_027470721.1    1.65%    failed      0.56%
+ 203  WP_119440273.1    2.06%    passed     20.47%
+ 204  MBL0068359.1      1.65%    passed     70.27%
+ 205  NJD23459.1        0.00%    failed      1.96%
+ 206  NCS82783.1        0.00%    passed     10.93%
+ 207  KAA0247893.1      0.00%    failed      0.38%
+ 208  MBI5660800.1      0.82%    passed     64.98%
+ 209  WP_011483559.1    1.23%    passed     14.81%
+ 210  OGI50687.1        1.23%    passed     18.55%
+ 211  WP_114972448.1    1.23%    passed     58.48%
+ 212  MBK5187575.1      1.23%    passed     17.18%
+ 213  HGW42276.1        1.23%    passed     97.65%
+ 214  WP_071101547.1    1.23%    passed     99.46%
+ 215  HEJ34517.1       22.22%    failed      0.02%
+ 216  MBI1903475.1     22.22%    passed     82.44%
+ 217  NOZ69799.1       22.22%    passed     88.48%
+ 218  XP_009035805.1   15.23%    passed     64.90%
+ 219  ota_1495857_1    11.52%    failed      1.55%
+ 220  NO17441.1        15.64%    passed     43.48%
+ 221  WP_092436108.1   15.64%    passed     40.48%
+ 222  PKL35195.1       14.40%    passed     61.82%
+ 223  MAD72826.1        2.47%    passed     17.84%
+ 224  MBU89002.1        2.47%    passed     13.16%
+ 225  MBF26215.1        2.06%    passed      7.70%
+ 226  OE19912.1        13.99%    passed     19.96%
+ 227  GAX20488.1        2.06%    failed      0.00%
+ 228  GAX13517.1        7.82%    failed      0.01%
+ 229  XP_005782918.1    3.70%    failed      1.11%
+ 230  XP_005761177.1    3.70%    failed      1.41%
+ 231  KOO24749.1        2.47%    failed      3.33%
+ 232  VEU39038.1        0.82%    passed     25.74%
+ 233  EJK65823.1        2.06%    passed     92.62%
+ 234  XP_002290647.1    2.06%    passed     69.90%
+ 235  ELP31579peps      4.94%    passed     68.82%
+ 236  WP_015194790.1    4.94%    passed      7.71%
+ 237  AFY76166pepc      4.94%    failed      0.52%
+ 238  EKD05835pepc      4.94%    passed      8.73%
+ 239  WP_017295363.1    5.35%    failed      0.35%
+ 240  ABX08345peps      8.64%    passed      8.05%
+ 241  syne_323061_NP    4.94%    failed      0.01%
+****  TOTAL             2.01%  28 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree edited_tree_eukmono.constr1...
+NOTE: WP_078455143.1 is identical to WP_052132093.1 but kept for subsequent analysis
+NOTE: KAG2019895.1 is identical to zcci_2544296_C but kept for subsequent analysis
+NOTE: HAF14778.1 is identical to HCX29462.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KHF26218.1 (identical to WP_052132093.1) is ignored but added at the end
+1 taxa removed from constraint tree
+
+For your convenience alignment with unique sequences printed to ArsM_G2eukmono.constr1.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+142.405 seconds, parsimony score: 11071 (based on 237 sites)
+
+NOTE: 39 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.024, 0.967 / LogL: -52638.480
+Init pinv, alpha: 0.003, 1.000 / Estimate: 0.024, 0.974 / LogL: -52638.505
+Init pinv, alpha: 0.005, 1.000 / Estimate: 0.024, 0.975 / LogL: -52638.508
+Init pinv, alpha: 0.008, 1.000 / Estimate: 0.024, 0.975 / LogL: -52638.510
+Init pinv, alpha: 0.011, 1.000 / Estimate: 0.024, 0.975 / LogL: -52638.511
+Init pinv, alpha: 0.014, 1.000 / Estimate: 0.024, 0.975 / LogL: -52638.513
+Init pinv, alpha: 0.016, 1.000 / Estimate: 0.024, 0.975 / LogL: -52638.514
+Init pinv, alpha: 0.019, 1.000 / Estimate: 0.024, 0.976 / LogL: -52638.515
+Init pinv, alpha: 0.022, 1.000 / Estimate: 0.024, 0.976 / LogL: -52638.516
+Init pinv, alpha: 0.025, 1.000 / Estimate: 0.024, 0.976 / LogL: -52638.516
+Optimal pinv,alpha: 0.024, 0.967 / LogL: -52638.480
+
+Parameters optimization took 23.612 sec
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 15971.815 second
+Computing log-likelihood of 99 initial trees ... 45.885 seconds
+Current best score: -52537.076
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -52258.712
+Iteration 10 / LogL: -52307.261 / Time: 4h:30m:51s
+Iteration 20 / LogL: -52327.048 / Time: 4h:31m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -52258.712 / CPU time: 16150.020
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -52237.148
+Iteration 30 / LogL: -52251.158 / Time: 4h:32m:58s (14h:18m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -52231.372
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -52231.026
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -52225.083
+Iteration 40 / LogL: -52252.516 / Time: 4h:33m:57s (11h:22m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -52217.537
+Iteration 50 / LogL: -52244.814 / Time: 4h:34m:54s (8h:26m:8s left)
+Iteration 60 / LogL: -52220.221 / Time: 4h:35m:49s (6h:15m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -52217.071
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -52213.704
+Iteration 70 / LogL: -52223.175 / Time: 4h:36m:57s (6h:18m:3s left)
+Iteration 80 / LogL: -52233.895 / Time: 4h:37m:47s (4h:56m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 89: -52211.713
+Iteration 90 / LogL: -52217.438 / Time: 4h:38m:34s (5h:7m:14s left)
+Iteration 100 / LogL: -52228.982 / Time: 4h:39m:16s (4h:8m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -52210.215
+Iteration 110 / LogL: -52213.584 / Time: 4h:39m:58s (3h:56m:50s left)
+Iteration 120 / LogL: -52215.218 / Time: 4h:40m:36s (3h:14m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 123: -52209.945
+Iteration 130 / LogL: -52285.550 / Time: 4h:41m:18s (3h:21m:5s left)
+Iteration 140 / LogL: -52229.981 / Time: 4h:41m:57s (2h:46m:56s left)
+Iteration 150 / LogL: -52211.157 / Time: 4h:42m:38s (2h:17m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 151: -52209.638
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -52208.422
+Iteration 160 / LogL: -52210.559 / Time: 4h:43m:21s (2h:49m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -52204.877
+Iteration 170 / LogL: -52212.725 / Time: 4h:44m:3s (2h:45m:0s left)
+Iteration 180 / LogL: -52214.928 / Time: 4h:44m:43s (2h:20m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 186: -52204.474
+Iteration 190 / LogL: -52210.010 / Time: 4h:45m:22s (2h:23m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 192: -52202.932
+Iteration 200 / LogL: -52207.403 / Time: 4h:46m:2s (2h:11m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 201: -52202.797
+Iteration 210 / LogL: -52210.241 / Time: 4h:46m:43s (2h:3m:48s left)
+Iteration 220 / LogL: -52207.045 / Time: 4h:47m:23s (1h:45m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 224: -52199.461
+Iteration 230 / LogL: -52201.886 / Time: 4h:48m:1s (1h:57m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 232: -52196.577
+Iteration 240 / LogL: -52221.066 / Time: 4h:48m:40s (1h:50m:12s left)
+Iteration 250 / LogL: -52206.749 / Time: 4h:49m:19s (1h:34m:29s left)
+Iteration 260 / LogL: -52208.721 / Time: 4h:49m:59s (1h:19m:57s left)
+Iteration 270 / LogL: -52211.565 / Time: 4h:50m:38s (1h:6m:26s left)
+Iteration 280 / LogL: -52204.607 / Time: 4h:51m:17s (0h:53m:50s left)
+Iteration 290 / LogL: -52198.835 / Time: 4h:51m:56s (0h:42m:4s left)
+Iteration 300 / LogL: -52202.728 / Time: 4h:52m:35s (0h:31m:3s left)
+Iteration 310 / LogL: -52203.547 / Time: 4h:53m:15s (0h:20m:42s left)
+Iteration 320 / LogL: -52202.051 / Time: 4h:53m:54s (0h:10m:57s left)
+Iteration 330 / LogL: -52211.533 / Time: 4h:54m:32s (0h:1m:46s left)
+TREE SEARCH COMPLETED AFTER 333 ITERATIONS / Time: 4h:54m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -52196.577
+Optimal log-likelihood: -52196.577
+Proportion of invariable sites: 0.024
+Gamma shape alpha: 0.976
+Parameters optimization took 1 rounds (0.554 sec)
+BEST SCORE FOUND : -52196.577
+Total tree length: 66.576
+
+Total number of iterations: 333
+CPU time used for tree search: 17286.471 sec (4h:48m:6s)
+Wall-clock time used for tree search: 17519.266 sec (4h:51m:59s)
+Total CPU time used: 17452.802 sec (4h:50m:52s)
+Total wall-clock time used: 17685.939 sec (4h:54m:45s)
+
+Analysis results written to: 
+  IQ-TREE report:                ArsM_G2eukmono.constr1.iqtree
+  Maximum-likelihood tree:       ArsM_G2eukmono.constr1.treefile
+  Screen log file:               ArsM_G2eukmono.constr1.log
+
+Date and Time: Sat Apr 17 15:46:33 2021
